@@ -1,10 +1,23 @@
 1. Explain Node and V8 in your own words ? 
 // Answer here...
 
+Node is a open source runtime environment, cross platform, server side javascript. 
+
+V8 is Google's open source high-performance JavaScript and WebAssembly engine, written in C++.
+
 2. Explain steps in REPL(here) and command to start REPL ?
 // Answer here...
 
+command: node
+
+steps are:-
+1.it reads the command what we write.
+2.then executes the command.
+3.it prints the output
+4.then it waits for another command to read.
+
 3. Run `index.js` in the same directory as script writer using `node FILE_NAME.js` and output result of console here.
+output: hello World
 
 4. Require fs module and read `theory.md` using fs.readFile method in index.js file.
 
